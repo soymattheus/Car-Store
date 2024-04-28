@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "img": "https://cdn.motor1.com/images/mgl/g4JXpN/s3/avaliacao-fiat-argo-trekking-cvt-2023-dianteira.jpg",
+    "marca": "Fiat",
+    "modelo": "Argo",
+    "ano": "2021/2022",
+    "km": 36807,
+    "cambio": "Manual",
+    "valor": 63290
+  },
+  {
+    "id": 2,
+    "img": "https://tecmania.com.br/wp-content/uploads/2024/02/Magnifico-Ford-Fusion-2024-sobe-a-regua-dos-sedans-com-inovacao-e-design-830x450.jpg.webp",
+    "marca": "Ford",
+    "modelo": "Fusion",
+    "ano": "2023/2024",
+    "km": 8000,
+    "cambio": "Automático",
+    "valor": 124290
+  },
+  {
+    "id": 3,
+    "img": "https://cdn.motor1.com/images/mgl/rv6v6/s1/volkswagen-golf-8-gti-clubsport-2021.jpg",
+    "marca": "Wolksvagen",
+    "modelo": "Golf",
+    "ano": "2021",
+    "km": 35000,
+    "cambio": "Manual",
+    "valor": 74290
+  },
+  {
+    "id": 4,
+    "img": "https://quatrorodas.abril.com.br/wp-content/uploads/2024/01/03_COROLLA_2024_1FLP4760.jpg?quality=70&strip=info",
+    "marca": "Toyota",
+    "modelo": "Corolla",
+    "ano": "2023/2024",
+    "km": 8000,
+    "cambio": "Automático",
+    "valor": 124290
+  },
+  {
+    "id": 5,
+    "img": "https://cdn.motor1.com/images/mgl/P3gRkX/s1/jeep-compass-2024---europa.webp",
+    "marca": "Geep",
+    "modelo": "Compass",
+    "ano": "2023/2024",
+    "km": 8000,
+    "cambio": "Automático",
+    "valor": 94290
+  },
+  {
+    "id": 6,
+    "img": "https://cdn.motor1.com/images/mgl/g4JXpN/s3/avaliacao-fiat-argo-trekking-cvt-2023-dianteira.jpg",
+    "marca": "Fiat",
+    "modelo": "Argo",
+    "ano": "2021/2022",
+    "km": 36807,
+    "cambio": "Manual",
+    "valor": 63290
+  },
+  {
+    "id": 7,
+    "img": "https://tecmania.com.br/wp-content/uploads/2024/02/Magnifico-Ford-Fusion-2024-sobe-a-regua-dos-sedans-com-inovacao-e-design-830x450.jpg.webp",
+    "marca": "Ford",
+    "modelo": "Fusion",
+    "ano": "2023/2024",
+    "km": 8000,
+    "cambio": "Automático",
+    "valor": 124290
+  },
+  {
+    "id": 8,
+    "img": "https://cdn.motor1.com/images/mgl/rv6v6/s1/volkswagen-golf-8-gti-clubsport-2021.jpg",
+    "marca": "Wolksvagen",
+    "modelo": "Golf",
+    "ano": "2021",
+    "km": 35000,
+    "cambio": "Manual",
+    "valor": 74290
+  },
+  {
+    "id": 9,
+    "img": "https://quatrorodas.abril.com.br/wp-content/uploads/2024/01/03_COROLLA_2024_1FLP4760.jpg?quality=70&strip=info",
+    "marca": "Toyota",
+    "modelo": "Corolla",
+    "ano": "2023/2024",
+    "km": 8000,
+    "cambio": "Automático",
+    "valor": 124290
+  },
+  {
+    "id": 10,
+    "img": "https://cdn.motor1.com/images/mgl/P3gRkX/s1/jeep-compass-2024---europa.webp",
+    "marca": "Geep",
+    "modelo": "Compass",
+    "ano": "2023/2024",
+    "km": 8000,
+    "cambio": "Automático",
+    "valor": 94290
+  }
+]

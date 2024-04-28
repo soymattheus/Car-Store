@@ -1,0 +1,8 @@
+[
+  { "id": "1", "marca": "Mercedes1", "img": "../../assets/img/BMW.png" },
+  { "id": "2", "marca": "Mercedes2", "img": "../../assets/img/BMW.png" },
+  { "id": "3", "marca": "Mercedes3", "img": "../../assets/img/BMW.png" },
+  { "id": "4", "marca": "Mercedes4", "img": "../../assets/img/BMW.png" },
+  { "id": "5", "marca": "Mercedes5", "img": "../../assets/img/BMW.png" },
+  { "id": "6", "marca": "Mercedes6", "img": "../../assets/img/BMW.png" }
+]
