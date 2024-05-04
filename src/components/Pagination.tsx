@@ -57,30 +57,3 @@ export const Pagination: React.FC<PaginationProps> = ({
     />
   );
 };
-
-export const Paginationn: React.FC<PaginationProps> = ({
-  pageCount,
-  onPageChange,
-}) => {
-  const [currentPage, setCurrentPage] = useState<number>(0);
-
-  const handlePageClick = (data: { selected: number }) => {
-    const selectedPage = data.selected;
-    setCurrentPage(selectedPage);
-    onPageChange(selectedPage);
-  };
-
-  return (
-    <ReactPaginate
-      previousLabel={"<"}
-      nextLabel={">"}
-      breakLabel={"..."}
-      pageCount={pageCount}
-      marginPagesDisplayed={2}
-      pageRangeDisplayed={5}
-      onPageChange={handlePageClick}
-      containerClassName={"pagination"}
-      activeClassName={"active"}
-    />
-  );
-};

@@ -27,7 +27,7 @@ const Footer = () => {
   `;
 
   return (
-    <>
+    <footer>
       <div className="footer-body">
         {/* Column 1 */}
         <div className="column-1">
@@ -115,7 +115,7 @@ const Footer = () => {
           <p className="develop-info-text">Criado por: Matheus Tavares</p>
         </div>
       </div>
-    </>
+    </footer>
   );
 };
 

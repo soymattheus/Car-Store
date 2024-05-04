@@ -1,0 +1,114 @@
+.main-car-details {
+  display: flex;
+  padding: 0px 10px;
+  max-width: 100%;
+}
+.left-details {
+  background-color: #fff;
+  width: 65%;
+  border-radius: 10px;
+  margin-top: -15px;
+  margin-right: 10px;
+  padding: 0px 15px;
+}
+.right-details {
+  background-color: #fff;
+  width: 35%;
+  border-radius: 10px;
+  margin-top: -15px;
+  margin-left: 10px;
+}
+.car-informations {
+  display: flex;
+  justify-content: space-between;
+}
+.car-informations-columns {
+  width: 33%;
+}
+.car-title {
+  margin: 5px 0px;
+}
+.car-brand {
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+.car-model {
+  font-weight: bold;
+  font-size: 1.7rem;
+  color: #ff6600;
+}
+.car-version {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0px 5px;
+}
+.informationTitle {
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: -10px;
+}
+.information {
+  font-weight: 400;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+.details-area-title {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.car-more-information {
+  font-size: 1rem;
+}
+.similar-cars-area {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px 15px;
+}
+.similar-cars-area-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.car-price {
+  font-size: 1.5rem;
+  font-weight: 700;
+  /* color: #ff6600; */
+  color: black;
+  text-align: center;
+}
+.talk-to-saller {
+  text-align: center;
+  font-weight: 500;
+}
+.call-us {
+  text-align: center;
+  font-weight: 500;
+}
+.share-car {
+  text-align: center;
+  font-weight: 500;
+}
+.map-area {
+  text-align: center;
+}
+.location-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.map {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+.location-address {
+  text-align: left;
+  margin-left: 15px;
+}
+.button-area {
+  display: flex;
+  justify-content: center;
+}
+.social-midia-icon-area {
+  display: flex;
+  justify-content: center;
+}

@@ -4,21 +4,19 @@ import Header from "./layout/header";
 
 import AppProvider from "./hooks";
 
-import Banner from "./components/Banner";
-import SearchCar from "./screens/searchCar";
 import Footer from "./layout/footer";
+import Routes from "./routes";
 
-function App() {
+const App: React.FC = () => {
   return (
     <AppProvider>
       <div style={{ minWidth: "320px", backgroundColor: "#ebe6e6" }}>
         <Header />
-        <Banner />
-        <SearchCar />
+        <Routes />
         <Footer />
       </div>
     </AppProvider>
   );
-}
+};
 
 export default App;

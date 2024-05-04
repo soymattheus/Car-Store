@@ -161,6 +161,13 @@
   font-size: 1.3rem;
   margin: 20px 0px;
 }
+.img-container {
+  width: 100%; /* Set your desired container width */
+  overflow: hidden; /* Hide overflow to prevent unwanted layout shifts */
+}
+.img-container:hover .card-image {
+  transform: scale(1.1); /* Scale the image on hover */
+}
 .card-image {
   height: auto;
   width: 100%;
@@ -168,6 +175,7 @@
   min-height: 10em;
   object-fit: cover;
   border-radius: 10px 10px 0px 0px;
+  transition: transform 0.3s ease; /* Add smooth transition effect */
 
   @media only screen and (max-width: 767px) {
     max-height: 13em;
