@@ -10,7 +10,7 @@ import Routes from "./routes";
 const App: React.FC = () => {
   return (
     <AppProvider>
-      <div style={{ minWidth: "320px", backgroundColor: "#ebe6e6" }}>
+      <div className="app">
         <Header />
         <Routes />
         <Footer />

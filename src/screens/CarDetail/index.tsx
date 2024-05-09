@@ -17,49 +17,7 @@ import { GridContainer } from "../../components/Grid";
 import { Pagination } from "../../components/Pagination";
 import { Button } from "../../components/Button";
 
-const MapContainer = () => {
-  const mapStyles = {
-    height: "100vh",
-    width: "100%",
-  };
-
-  const defaultCenter = {
-    lat: 40.712776,
-    lng: -74.005974,
-  };
-
-  return (
-    <LoadScript googleMapsApiKey="AIzaSyASsi0s9NKCtQ4rVWbBMMuiyD_kc3CmZ8A">
-      <GoogleMap
-        mapContainerStyle={mapStyles}
-        zoom={13}
-        center={defaultCenter}
-      />
-    </LoadScript>
-  );
-};
-
-interface CardGridProps {
-  id: number;
-  img: string;
-  marca: string;
-  modelo: string;
-  ano: string;
-  km: number;
-  cambio: string;
-  valor: number;
-  onClick?: React.MouseEventHandler<HTMLDivElement>;
-  child?: React.ReactNode;
-}
-
-interface ICarImages {
-  id: string;
-  url: string;
-}
-
-interface IChip {
-  text: string;
-}
+import { CardGridProps, ICarImages, IChip } from "../../model/interfaces";
 
 const cars: ICarImages[] = [
   {
@@ -131,7 +89,7 @@ const CarDetail: React.FC = () => {
   const { isMobile, isTablet, isLaptop, isDesktop, is4k } = useScreenSize();
   const { carsDataDisplayed, currentPage, setCurrentPage } = useSearchCar();
 
-  const itemsPerPage = isMobile ? 2 : 4;
+  const itemsPerPage = isMobile ? 1 : 4;
   const pageCount =
     carsDataDisplayed !== undefined
       ? Math.ceil(carsDataDisplayed?.length / itemsPerPage)
@@ -183,11 +141,11 @@ const CarDetail: React.FC = () => {
             </div>
             <div className="car-informations-columns">
               <div>
-                <p className="informationTitle">Quilometragem</p>
+                <p className="informationTitle">Km</p>
                 <p className="information">132.000 Km</p>
               </div>
               <div>
-                <p className="informationTitle">Final da Placa</p>
+                <p className="informationTitle">Placa</p>
                 <p className="information">***3</p>
               </div>
             </div>

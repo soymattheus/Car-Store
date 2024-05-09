@@ -24,24 +24,7 @@ import { Pagination } from "../../components/Pagination";
 import { useScreenSize } from "../../hooks/screenSize";
 import { useSearchCar } from "../Providers/searchCar";
 
-interface CardGridProps {
-  id: number;
-  img: string;
-  marca: string;
-  modelo: string;
-  ano: string;
-  km: number;
-  cambio: string;
-  valor: number;
-  onClick?: React.MouseEventHandler<HTMLDivElement>;
-  child?: React.ReactNode;
-}
-
-interface BrandProps {
-  id: string;
-  marca: string;
-  img: string;
-}
+import { CardGridProps, BrandProps } from "../../model/interfaces";
 
 const SearchCar = () => {
   const navigate = useNavigate();

@@ -3,27 +3,7 @@ import axios from "axios";
 
 import LogoCarro from "../../assets/img/BMW.png";
 
-interface CarProps {
-  id: number;
-  img: string;
-  marca: string;
-  modelo: string;
-  ano: string;
-  km: number;
-  cambio: string;
-  valor: number;
-}
-
-interface BrandProps {
-  id: string;
-  marca: string;
-  img: string;
-}
-
-interface GetCarsProps {
-  year: string | undefined;
-  brand: string | undefined;
-}
+import { CarProps, BrandProps, GetCarsProps } from "../../model/interfaces";
 
 interface SearchCarContextType {
   carsData: CarProps[] | undefined;

@@ -14,6 +14,10 @@ const Wrapper = styled.div`
   flex: 0 0 auto;
   width: 33.3%;
   margin-right: 0px;
+
+  @media only screen and (max-width: 767px) {
+    width: 100%;
+  }
 `;
 
 const Image = styled.img`

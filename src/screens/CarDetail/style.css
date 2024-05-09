@@ -1,22 +1,38 @@
 .main-car-details {
   display: flex;
-  padding: 0px 10px;
+  margin: 10px 5px;
   max-width: 100%;
+
+    @media only screen and (max-width: 767px) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 .left-details {
   background-color: #fff;
   width: 65%;
   border-radius: 10px;
-  margin-top: -15px;
+  margin-top: -20px;
   margin-right: 10px;
   padding: 0px 15px;
+
+  @media only screen and (max-width: 767px) {
+    width: 90%;
+    margin: 5px;
+  }
 }
 .right-details {
   background-color: #fff;
   width: 35%;
   border-radius: 10px;
-  margin-top: -15px;
+  margin-top: -20px;
   margin-left: 10px;
+
+  @media only screen and (max-width: 767px) {
+    width: 90%;
+    margin: 5px;
+    padding: 0px 15px;
+  }
 }
 .car-informations {
   display: flex;
