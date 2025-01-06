@@ -17,12 +17,13 @@ const StyledPagination = styled(ReactPaginate)`
   }
 
   li.selected {
-    background-color: #ff6600; /* Cor de fundo para a página atual */
+    background-color: #9ed99e; /* Cor de fundo para a página atual */
     color: white;
   }
 
   li:hover {
     background-color: #f0f0f0;
+    color: #1a1623;
   }
 `;
 

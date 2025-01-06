@@ -22,7 +22,7 @@ import { CardGridProps, ICarImages, IChip } from "../../model/interfaces";
 const cars: ICarImages[] = [
   {
     id: "1",
-    url: "https://tecmania.com.br/wp-content/uploads/2024/02/Magnifico-Ford-Fusion-2024-sobe-a-regua-dos-sedans-com-inovacao-e-design-830x450.jpg.webp",
+    url: "https://quatrorodas.abril.com.br/wp-content/uploads/2018/03/19fordfusion_09_hr-e1596724047822.jpg?quality=70&strip=info&w=720&crop=1",
   },
   {
     id: "2",

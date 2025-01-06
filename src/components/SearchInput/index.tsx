@@ -11,7 +11,7 @@ export const SearchContainer = styled.div`
   border-radius: 5px; // Bordas arredondadas
   /* padding: 5px; // Espaçamento interno */
   width: 100%; // Largura do contêiner
-  background-color: #ff6600;
+  background-color: #9ed99e;
   color: black;
   font-weight: bold;
 `;

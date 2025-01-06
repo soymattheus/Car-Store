@@ -51,21 +51,21 @@ const Footer = () => {
           </div>
 
           <div className="link-area">
-            <FaWhatsapp color="#ff6600" />
-            <a className="link" href="#">
-              +55 79 98877-6655
+            <FaWhatsapp color="#9ed99e" />
+            <a className="link" href="#+55 21 98877-6655">
+              +55 21 98877-6655
             </a>
           </div>
 
           <div className="link-area">
-            <MdOutlineMail color="#ff6600" />
+            <MdOutlineMail color="#9ed99e" />
             <a className="link" href="#">
               matheusveiculos@email.com
             </a>
           </div>
 
           <div className="link-area">
-            <FaRegMap color="#ff6600" />
+            <FaRegMap color="#9ed99e" />
             <a className="link" href="#">
               Rua da Empresa, Nº 123, Bairro, Cidade
             </a>
@@ -76,28 +76,28 @@ const Footer = () => {
         <div className="column-3">
           <p className="title">Links Sociais</p>
           <div className="link-area">
-            <FaInstagram color="#ff6600" />
+            <FaInstagram color="#9ed99e" />
             <a className="link" href="#">
               Instagram
             </a>
           </div>
 
           <div className="link-area">
-            <FaFacebook color="#ff6600" />
+            <FaFacebook color="#9ed99e" />
             <a className="link" href="#">
               Facebook
             </a>
           </div>
 
           <div className="link-area">
-            <FaYoutube color="#ff6600" />
+            <FaYoutube color="#9ed99e" />
             <a className="link" href="#">
               Youtube
             </a>
           </div>
 
           <div className="link-area">
-            <FaLinkedinIn color="#ff6600" />
+            <FaLinkedinIn color="#9ed99e" />
             <a className="link" href="#">
               LinkedIn
             </a>

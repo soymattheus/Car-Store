@@ -64,7 +64,7 @@ export function SearchCarProvider({ children }: SearchCarProviderType) {
     },
     {
       id: 2,
-      img: "https://tecmania.com.br/wp-content/uploads/2024/02/Magnifico-Ford-Fusion-2024-sobe-a-regua-dos-sedans-com-inovacao-e-design-830x450.jpg.webp",
+      img: "https://quatrorodas.abril.com.br/wp-content/uploads/2018/03/19fordfusion_09_hr-e1596724047822.jpg?quality=70&strip=info&w=720&crop=1",
       marca: "Ford",
       modelo: "Fusion",
       ano: "2023/2024",
@@ -114,7 +114,7 @@ export function SearchCarProvider({ children }: SearchCarProviderType) {
     },
     {
       id: 7,
-      img: "https://tecmania.com.br/wp-content/uploads/2024/02/Magnifico-Ford-Fusion-2024-sobe-a-regua-dos-sedans-com-inovacao-e-design-830x450.jpg.webp",
+      img: "https://quatrorodas.abril.com.br/wp-content/uploads/2018/03/19fordfusion_09_hr-e1596724047822.jpg?quality=70&strip=info&w=720&crop=1",
       marca: "Ford",
       modelo: "Fusion",
       ano: "2023/2024",

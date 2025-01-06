@@ -47,11 +47,12 @@
 .car-brand {
   font-weight: bold;
   font-size: 1.7rem;
+  color: #1a1623;
 }
 .car-model {
   font-weight: bold;
   font-size: 1.7rem;
-  color: #ff6600;
+  color: #9ed99e;
 }
 .car-version {
   font-size: 1rem;
