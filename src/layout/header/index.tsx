@@ -1,11 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 
-// import "./header.css";
-import carIcon from "../../assets/img/logo.png";
+import "./style.css";
 
 import { Button } from "../../components/Button";
-import { IconButton } from "../../components/IconButton";
 
 const Header = () => {
   // Create a styled app bar
@@ -23,13 +21,11 @@ const Header = () => {
     <AppBar>
       <div>
         {/* Ícone do site à esquerda */}
-        <IconButton>
-          <img
-            src={carIcon}
-            alt="Site Icon"
-            style={{ width: 100, height: 50, backgroundColor: "#000" }}
-          />
-        </IconButton>
+        <p className="logo"
+        // style={{fontFamily: 'jaini Purva', fontSize: '50px', paddingLeft: '10px'}}
+        >
+          Matheus Car
+        </p>
       </div>
 
       <div>

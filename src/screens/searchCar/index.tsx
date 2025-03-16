@@ -7,8 +7,6 @@ import { RiCloseLine } from "react-icons/ri";
 import { Select } from "../../components/Select/Select";
 import Banner from "../../components/Banner";
 
-import LogoCarro from "../../assets/img/BMW.png";
-
 import "./style.css";
 
 import {
@@ -28,7 +26,7 @@ import { CardGridProps, BrandProps } from "../../model/interfaces";
 
 const SearchCar = () => {
   const navigate = useNavigate();
-  const { isMobile, isTablet, isLaptop, isDesktop, is4k } = useScreenSize();
+  const { isMobile } = useScreenSize();
   const {
     carsDataDisplayed,
     carBrands,

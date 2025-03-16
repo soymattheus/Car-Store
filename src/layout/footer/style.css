@@ -50,9 +50,10 @@
   display: flex;
   justify-content: space-between;
   padding: 0px 15px;
-  background-color: darkgrey;
+  background-color: #000009;
 }
 .develop-info-text {
+  color: #eeeeee;
   font-size: 0.7em;
   font-weight: 600;
 

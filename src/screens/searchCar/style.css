@@ -62,9 +62,10 @@
   cursor: pointer;
 }
 .car-brand-icon {
-  width: 55px;
-  height: 55px;
+  width: 40px;
+  height: 40px;
   align-self: center;
+  padding: 5px
 }
 .input-filter-area {
   display: flex;
@@ -140,7 +141,7 @@
 .car-model {
   font-weight: bold;
   font-size: 1.4rem;
-  color: #ff6600;
+  color: #9ed99e;
 }
 .body {
   padding: 0px 10px;

@@ -1,0 +1,16 @@
+@media only screen and (max-width: 768px) {
+  .botao {
+    font-size: 0.7rem;
+  }
+  
+  .logo {
+    font-size: 30px !important;
+    padding-left: 10px !important;
+  }
+}
+
+.logo {
+  font-family: 'Jaini Purva', cursive;
+  font-size: 50px;
+  padding-left: 10px;
+}

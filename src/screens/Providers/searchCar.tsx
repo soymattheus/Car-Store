@@ -1,7 +1,12 @@
 import React from "react";
 import axios from "axios";
 
-import LogoCarro from "../../assets/img/BMW.png";
+import BMW from '../../assets/brandLogos/BMW.png';
+import Tesla from'../../assets/brandLogos/Tesla.png';
+import Citroen from '../../assets/brandLogos/Citroen.png';
+import Chevrolet from '../../assets/brandLogos/Chevrolet.png';
+import Nissan from '../../assets/brandLogos/Nissan.png';
+import Volkswagen from '../../assets/brandLogos/Volkswagen.png'
 
 import { CarProps, BrandProps, GetCarsProps } from "../../model/interfaces";
 
@@ -155,12 +160,12 @@ export function SearchCarProvider({ children }: SearchCarProviderType) {
   ];
 
   const carBrands: BrandProps[] = [
-    { id: "1", marca: "Mercedes1", img: LogoCarro },
-    { id: "2", marca: "Mercedes2", img: LogoCarro },
-    { id: "3", marca: "Mercedes3", img: LogoCarro },
-    { id: "4", marca: "Mercedes4", img: LogoCarro },
-    { id: "5", marca: "Mercedes5", img: LogoCarro },
-    { id: "6", marca: "Mercedes6", img: LogoCarro },
+    { id: "1", marca: "BMW", img: BMW },
+    { id: "2", marca: "Citroên", img: Citroen },
+    { id: "3", marca: "Tesla", img: Tesla },
+    { id: "4", marca: "Chevrolet", img: Chevrolet },
+    { id: "5", marca: "Nissan", img: Nissan },
+    { id: "6", marca: "Volkswagen", img: Volkswagen },
   ];
 
   const handleSetMouse = (): void => {

@@ -31,11 +31,9 @@ const Footer = () => {
       <div className="footer-body">
         {/* Column 1 */}
         <div className="column-1">
-          <img
-            src={carIcon}
-            alt="Site Icon"
-            style={{ width: 200, height: "auto", backgroundColor: "#000" }}
-          />
+        <p style={{fontFamily: 'jaini Purva', fontSize: '60px'}}>
+          Matheus Car
+        </p>
           <p>
             A revenderora de seminovos ideal para você comprar o seu veículo de
             qualidade.

@@ -1,46 +1,68 @@
-# Getting Started with Create React App
+<h1 align="center">Car Store</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3>Main used technologies</h3>
 
-## Available Scripts
+<ul>
+<li>React</li>
+<li>Styled Components</li>
+<li>Google maps API</li>
+<li>Axios</li>
+<li>React icons</li>
+</ul>
 
-In the project directory, you can run:
+<h3>Screen Images</h3>
 
-### `npm start`
+<h4>Desktop Images</h4>
+<p> - Home page</p>
+<p align="center">
+<img loading="lazy" src="./src/assets/github/images/home1.png"/>
+</p>
+<p align="center">
+<img loading="lazy" src="./src/assets/github/images/home2.png"/>
+</p>
+<img loading="lazy" src="./src/assets/github/images/home3.png"/>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p> - Car details page</p>
+<p align="center">
+<img loading="lazy" src="./src/assets/github/images/details1.png"/>
+</p>
+<p align="center">
+<img loading="lazy" src="./src/assets/github/images/details2.png"/>
+</p>
+<img loading="lazy" src="./src/assets/github/images/home3.png"/>
+</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<h4>Mobile Images</h4>
+<p> - Home page</p>
+<p align="center">
+<img loading="lazy" src="./src/assets/github/images/mobile home1.jpeg"/>
+</p>
+<p align="center">
+<img loading="lazy" src="./src/assets/github/images/mobile home2.jpeg"/>
+</p>
 
-### `npm test`
+<p> - Car details page</p>
+<p align="center">
+<img loading="lazy" src="./src/assets/github/images/mobile car details.jpeg"/>
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+<h3>To run the project locally follow these steps</h3>
+<ol>
+<li>Clone the project:</li>
+<p>git clone https://github.com/soymattheus/Car-Store.git</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<li>Enter the cloned project folder</li>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<li>Install required packges:</li>
+<p>yarn</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<li>Run the project locally:</li>
+<p>yarn start</p>
+</ol>
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p>I hope you like this little project.</p>
+<p>If you have any difficulties, you can send me a message via <a href="https://www.linkedin.com/in/mattheusdev/" target="_blank">linkedIn</a>.</p>
+<p>
+If you have ideas, contributions or would like to give any constructive criticism, feel free to message me via <a href="https://www.linkedin.com/in/mattheusdev/" target="_blank">linkedIn</a>. Any contribution will be welcome.</p>
